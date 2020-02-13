@@ -40,7 +40,7 @@ class CameraViewController: UIViewController {
         super.viewWillAppear(animated)
         captureSession.startRunning()
     }
-    
+    // comment for commit 
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         captureSession.startRunning()
